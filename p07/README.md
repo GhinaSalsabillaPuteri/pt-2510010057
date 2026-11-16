@@ -39,8 +39,8 @@ Letakkan `sinilai_v06.cpp` dan README tugas di folder `p07` repositori `pt-NPM`.
 
 ## Deklarasi AI
 
-AI yang digunakan: GitHub Copilot.
+AI yang digunakan: ChatGPT (OpenAI).
 
-Prompt: "Bagaimana memvalidasi nama di SiNilai v0.6 agar input kosong, hanya spasi, atau mengandung angka ditolak?"
+Prompt: "Bagaimana cara membuat validasi nama pada program SiNilai v0.6 menggunakan C++ agar input yang kosong, hanya berisi spasi, atau mengandung angka ditolak? Jelaskan juga cara mengulang input sampai nama yang dimasukkan benar."
 
-Umpan balik AI: Periksa string kosong dan pastikan ada setidaknya satu huruf. Telusuri karakter satu per satu untuk menolak angka, lalu minta input baru selama syarat nama belum terpenuhi. Saya mencocokkan aturan ini dengan contoh masukan yang sengaja tidak valid.
+Umpan balik AI: ChatGPT menyarankan untuk memeriksa apakah nama kosong atau hanya berisi spasi, kemudian menelusuri setiap karakter untuk memastikan tidak terdapat angka. Jika input tidak memenuhi ketentuan, program akan meminta pengguna memasukkan nama kembali. Saya menerapkan dan menguji saran tersebut menggunakan contoh masukan yang telah disediakan.
